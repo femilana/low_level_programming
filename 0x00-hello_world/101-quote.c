@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - using C program to print a line to  stdE
- * Return 1 (Success)
+ * Return: 1 (Success)
  */
 int main(void)
 {
