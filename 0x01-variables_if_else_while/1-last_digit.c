@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point of c code
- * Reason: Always return 0
+ * main - Entry point of C code
+ * Return: Always return 0
  */
 
 int main(void)
