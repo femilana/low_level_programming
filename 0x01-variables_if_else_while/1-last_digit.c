@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - entry point of c code
- * Reason: 0
+ * Reason: Always return 0
  */
 
 int main(void)
