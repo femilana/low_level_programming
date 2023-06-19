@@ -4,7 +4,7 @@
 /**
  * main - entry point of c code
  * Reason: 0
-*/
+ */
 
 int main(void)
 {
