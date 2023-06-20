@@ -13,13 +13,15 @@ int main(void)
 	let = 'a';
 	yes = 'A';
 	while
-	(let <= 'z') { 
+	(let <= 'z') {
 			putchar (let);
 			let++;
-		}
-	while 
-	(yes <= 'Z') { 
+	}
+	while
+	(yes <= 'Z') {
 			putchar (yes);
+			yes++;
 		}
 	putchar('\n');
 	return (0);
+}
