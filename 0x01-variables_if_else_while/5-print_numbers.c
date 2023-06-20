@@ -9,7 +9,7 @@ int main(void)
 
 	for (decimal = 0; decimal <= 9; decimal++)
 	{
-		printf("%d\n", decimal);
+		printf("%d", decimal);
 	}
 	return (0);
 }
