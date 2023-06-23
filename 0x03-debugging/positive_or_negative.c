@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Check if the num is +ve , -ve or 0
- * Return:
+ * Return: 0
  */
 void positive_or_negative(int i)
 {
