@@ -13,8 +13,8 @@ int main(void)
 	for (a = 3, a < 782849; a = a + 2)
 	{
 		while ((b % a == 0) && (b != a))
-			b = n / a;
+			b = b / a;
 	}
-	printf("%lu\n", n);
+	printf("%lu\n", b);
 	return (0);
 }
