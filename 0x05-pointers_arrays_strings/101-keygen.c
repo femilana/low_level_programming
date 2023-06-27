@@ -25,7 +25,7 @@ int main(void)
 	passcode[ind] = '\0';
 	if (sum != 2772)
 	{
-		dh1 = (sum = 2772) / 2;
+		dh1 = (sum - 2772) / 2;
 		dh2 = (sum - 2772) / 2;
 		if ((sum - 2772) % 2 != 0)
 			dh1++;
