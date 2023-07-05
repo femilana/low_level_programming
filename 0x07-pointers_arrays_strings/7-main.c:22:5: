@@ -1,0 +1,7 @@
+essboard(board);
+      |     ^~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+7-print_chessboard.c: In function ‘print_chessboard’:
+7-print_chessboard.c:17:4: error: implicit declaration of function ‘_putchar’ [-Werror=implicit-function-declaration]
+   17 |    _putchar(p[a][b]);
+      |    ^~~~~~~i
