@@ -16,10 +16,7 @@ char *_strpbrk(char *s, char *accept)
 		for (point = 0; accept[point]; point++)
 		{
 			if (*s == accept[point])
-			{
-
 				return (s);
-			}
 			s++;
 		}
 	}
